@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTC house</title>
+    <link rel="stylesheet" href="gtc.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+    <i class="fa-solid fa-house"></i>
+    <h1>Camore Suites</h1>
+    <label for="Buy now">Buy Now</label><br><br>
+    <i class="fa-solid fa-basket-shopping"></i>
+    <select id="Buynow" name="Buy now" value="Buy Now" required>
+      <a href="GTC.html">
+        <option value="GTC Unit">GTC Unit</option>
+      </a>
+      <a href="Kilimani.html">
+        <option value="Kilimani Unit">Kilimani Unit</option>
+      </a>
+      <a href="Tatu City.html">
+        <option value="Tatu City Unit">Tatu City Unit</option>
+      </a>
+      <a href="Tsavo.html"></a>
+      <option value="Tsavo Unit">Tsavo Unit</option></a>
+    </select><br><br>
+  </header>
+    <header>
+        <h1>Kilimani House</h1>
+    </header>
+    <h2>About us</h2>
+    <p>
+        Welcome! I'm a passionate Airbnb host based in the heart of Nairobi, Kenya. I believe every guest deserves more
+        than just a place to sleep — they deserve an experience. I'm always available to answer questions, offer local
+        tips, or point you to Nairobi's hidden gems. Whether it's the best nyama choma spot or the most scenic weekend
+        getaway, I've got you covered. I speak both English and French, so don't hesitate to reach out in either
+        language. Let me help you fall in love with this incredible city!
+    </p>
+    <h2>Locate us at:</h2>
+    <p>
+        SmartHomes is nestled in the leafy, upscale neighbourhood of Kilimani — one of Nairobi's most sought-after
+        residential areas. Getting here from Jomo Kenyatta International Airport (JKIA) is quick and easy!
+        By Uber (Recommended)
+
+        Simply open your Uber app upon arrival at JKIA and search for SmartHomes, Kilimani. The ride typically takes 20
+        to 40 minutes depending on traffic, and is a comfortable, affordable, and hassle-free way to reach the property.
+        Nairobi traffic can be busy during peak hours (7 to 9am and 5 to 7pm), so factor that in if you're arriving at
+        those
+        times.
+        About the Neighbourhood
+        Kilimani is a vibrant, safe, and well-connected part of Nairobi. You'll find yourself surrounded by great
+        restaurants, cafés, supermarkets, and shopping centres — everything you need is just minutes away. It's also
+        centrally located, making it easy to explore the rest of the city.
+        Pro Tip 🗺️
+
+        If your Uber driver needs help locating the property, feel free to reach out to me directly — I'm always
+        available and happy to guide you or your driver to the door!
+    </p>
+
+    <section id="GTC.pics">
+        <div id="GTCimage1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTToimiM7suvcDXNBQZPXWGM5ou_XMzQazckPfp5eaQ7g&s=10"
+                alt="Kilimani.img1" />
+            <p id="img.ds">
+                🌿 Relax in a stylish retreat in the heart of Kilimani—perfect for work, rest, or a weekend escape.
+            </p>
+        </div>
+
+        <div id="GTCimage2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27iWL5Vgw02CXILwStQcRnfsDGUBaQT0hYMR_-jkHwg&s=10"
+                alt="Kilimani.img2" />
+            <p id="img.ds">
+                📍 Stay minutes away from Nairobi's best cafés, malls, restaurants, and nightlife while enjoying a
+                peaceful, modern space.
+            </p>
+        </div>
+
+        <div id="GTCimage3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcBdoIEwFofsGCpLWLF1XkMugaQYM8tf8ShyrWjiSQ_Q&s=10"
+                alt="Kiliman.img3" />
+            <p id="img.ds">
+                🏡 Thoughtfully designed with comfort in mind, offering everything you need for a seamless and relaxing
+                stay.
+            </p>
+        </div>
+        <section id="FORM">
+            <h2>Book Your Stay:</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="would you like to recieve notifications?">Would you like to receive
+                    notifications?</label><br><br>
+                <select id="notifications" name="notifications" value="notifications" required>
+                    <option value="yes">Yes, I would like to receive notifications.</option>
+                    <option value="no">No, thank you.</option>
+                </select><br><br>
+
+                <label for="Check-in date">Check-in date:</label><br><br>
+                <input type="date" id="check-in" name="check-in" required><br><br>
+                <label for="Check-out date">Check-out date:</label><br><br>
+                <input type="date" id="check-out" name="check-out" required><br><br>
+
+                <label for="number of guests">Number of guests:</label><br><br>
+                <input type="number" id="guests" name="guests" min="1" max="6" required><br><br>
+
+                <label for="Reason for booking">Reason for booking:</label><br><br>
+                <select id="reason" name="reason" value="reason" required>
+                    <option value="leisure">Leisure</option>
+                    <option value="business">Business</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <input type="submit" value="Register" id="Register">
+        </section>
+</body>
+
+</html>

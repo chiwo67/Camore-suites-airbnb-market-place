@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTC house</title>
+    <link rel="stylesheet" href="gtc.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+    <i class="fa-solid fa-house"></i>
+    <h1>Camore Suites</h1>
+    <label for="Buy now">Buy Now</label><br><br>
+    <i class="fa-solid fa-basket-shopping"></i>
+    <select id="Buynow" name="Buy now" value="Buy Now" required>
+      <a href="GTC.html">
+        <option value="GTC Unit">GTC Unit</option>
+      </a>
+      <a href="Kilimani.html">
+        <option value="Kilimani Unit">Kilimani Unit</option>
+      </a>
+      <a href="Tatu City.html">
+        <option value="Tatu City Unit">Tatu City Unit</option>
+      </a>
+      <a href="Tsavo.html"></a>
+      <option value="Tsavo Unit">Tsavo Unit</option></a>
+    </select><br><br>
+  </header>
+    <header>
+        <h1>Tatu City</h1>
+    </header>
+    <h2>About us</h2>
+    <p>
+        Unity Homes offers quality, well-priced 2 and 3-bedroom apartments in the heart of Tatu City, complete with
+        exclusive resident amenities including a badminton court, a mini basketball court, and a playground — with
+        future plans for a two-acre park, infinity pool, gym, coffee shop, and commercial centre. Cool balconies with
+        glass railings and floor-to-ceiling sliding doors make the most of spectacular panoramic park views, while
+        calming natural palettes and modern kitchens create a lovely indoor experience. Whether you're a first-time
+        buyer, a young family, or a savvy investor — this is where smart living begins.
+    </p>
+    <h2>Locate us at:</h2>
+    <p>
+        Getting to Tatu City from JKIA 🛬
+        Tatu City is a surprisingly easy and straightforward journey from Jomo Kenyatta International Airport — making
+        it the perfect destination whether you're arriving for business, leisure, or to explore your future home.
+        By Uber (Recommended)
+
+        Once you land at JKIA, simply open your Uber app and search for Tatu City, Ruiru. The drive covers approximately
+        19 miles and takes around 32 minutes under normal traffic conditions. It's the most comfortable and hassle-free
+        option, especially if you're travelling with luggage. Bear in mind that Nairobi traffic can be heavier during
+        peak hours (7 to 9am and 5 to 7pm), so allow extra time if arriving during those windows. Rome2Rio
+        By Bus / Matatu
+
+        You can also take a bus from JKIA, connecting via key stages in the city centre, with a total journey time of
+        around 1 hour 42 minutes. This is a budget-friendly option for the adventurous traveller who wants to experience
+        the city along the way. Rome2Rio
+        The Route
+
+        From JKIA, your driver will head north through Nairobi city, joining the Thika Superhighway — one of Kenya's
+        busiest and most modern expressways. Tatu City benefits from excellent connectivity via the Thika Superhighway
+        and Eastern Bypass, keeping Nairobi's city centre easily accessible at all times. Tatu City is located in Ruiru,
+        Kiambu County, just beyond the northern edge of Nairobi. BuyRentKenya
+        Pro Tip 🗺️
+
+        If your driver is unfamiliar with the exact location within Tatu City, specify your destination — whether it's
+        Kijani Ridge, Unity Homes, or another development — as the city spans a large 5,000-acre area.
+    </p>
+
+    <section id="GTC.pics">
+        <div id="GTCimage1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeduBAl53Bm1zoTT9DzpSBgkH_Lbaz1Zq_lDomFqXFag&s=10"
+                alt="GTChouse1" />
+            <p id="img.ds">
+                🌆 Whether you're here for business or leisure, our Tatu City apartment puts the best of Nairobi right at
+                your doorstep.
+            </p>
+        </div>
+
+        <div id="GTCimage2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-wvK03NqsCDgS7ty5nOLS26VC1dXFLBNRlwlJ3RGMA&s=10"
+                alt="GTChoue2" />
+            <p id="img.ds">
+                ✨ Bright interiors, modern finishes, and a warm atmosphere make this the perfect place to unwind.
+            </p>
+        </div>
+
+        <div id="GTCimage3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrg7eS-ITyOt7EUZ0H5v2lc4IV2KWCgCqpEFfc4ZS-w&s=10"
+                alt="GTChouse3" />
+            <p id="img.ds">
+                💫 Clean, cozy, and conveniently located—experience the perfect balance of comfort and convenience in Tatu City.
+            </p>
+        </div>
+        <section id="FORM">
+            <h2>Book Your Stay:</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="would you like to recieve notifications?">Would you like to receive
+                    notifications?</label><br><br>
+                <select id="notifications" name="notifications" value="notifications" required>
+                    <option value="yes">Yes, I would like to receive notifications.</option>
+                    <option value="no">No, thank you.</option>
+                </select><br><br>
+
+                <label for="Check-in date">Check-in date:</label><br><br>
+                <input type="date" id="check-in" name="check-in" required><br><br>
+                <label for="Check-out date">Check-out date:</label><br><br>
+                <input type="date" id="check-out" name="check-out" required><br><br>
+
+                <label for="number of guests">Number of guests:</label><br><br>
+                <input type="number" id="guests" name="guests" min="1" max="6" required><br><br>
+
+                <label for="Reason for booking">Reason for booking:</label><br><br>
+                <select id="reason" name="reason" value="reason" required>
+                    <option value="leisure">Leisure</option>
+                    <option value="business">Business</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <input type="submit" value="Register" id="Register">
+        </section>
+</body>
+
+</html>

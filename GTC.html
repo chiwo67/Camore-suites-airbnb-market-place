@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTC house</title>
+    <link rel="stylesheet" href="gtc.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+    <i class="fa-solid fa-house"></i>
+    <h1>Camore Suites</h1>
+    <label for="Buy now">Buy Now</label><br><br>
+    <i class="fa-solid fa-basket-shopping"></i>
+    <select id="Buynow" name="Buy now" value="Buy Now" required>
+      <a href="GTC.html">
+        <option value="GTC Unit">GTC Unit</option>
+      </a>
+      <a href="Kilimani.html">
+        <option value="Kilimani Unit">Kilimani Unit</option>
+      </a>
+      <a href="Tatu City.html">
+        <option value="Tatu City Unit">Tatu City Unit</option>
+      </a>
+      <a href="Tsavo.html"></a>
+      <option value="Tsavo Unit">Tsavo Unit</option></a>
+    </select><br><br>
+  </header>
+    <header>
+        <h1>Global Trade centre</h1>
+    </header>
+    <h2>About us</h2>
+    <p>
+        GTC, situated in Nairobi's Westlands business district, is a 7.5-acre
+        urban HOPSCA complex by Nairobi GTC Industry Limited. It features an
+        international 3A+ Grade offices, luxurious Five-star Hotel JW Marriott,
+        Pan Pacific Serviced Suites, GTC Residence, and GTC Boutique Mall. The
+        Integration of these facilities harmoniously blend excellence, luxury, and
+        style in Nairobi's dynamic landscape.
+    </p>
+    <h2>Locate us at:</h2>
+    <p>
+        > **GTC Towers is conveniently located about 20 to 30 minutes from Jomo
+        Kenyatta International Airport (JKIA), depending on traffic. Situated
+        along Chiromo Road in Westlands, Nairobi, it offers easy access to the
+        city's business district, shopping malls, restaurants, and entertainment
+        spots. Its central location makes it an excellent choice for both business
+        and leisure travelers.** Or, if you want something even shorter: >
+        **Located in the heart of Westlands, GTC Towers is approximately 20 to 30
+        minutes from JKIA. With easy access to Nairobi's top business hubs,
+        restaurants, shopping, and nightlife, it's an ideal base for your stay.**
+    </p>
+
+    <section id="GTC.pics">
+        <div id="GTCimage1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2fT6_ZLVXhO9R88xg0lCVPZndXKdznhcx-OeOTCtMVA&s=10"
+                alt="GTChouse1" />
+            <p id="img.ds">
+                ✨ Wake up to breathtaking city views and experience modern luxury in
+                the heart of Westlands. Your perfect Nairobi stay starts here.
+            </p>
+        </div>
+
+        <div id="GTCimage2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmPkJOiEn4OU9OHQpebFWvD-pZyB3SNnKwdt9w__IfUg&s=10"
+                alt="GTChoue2" />
+            <p id="img.ds">
+                🏙️ Stylish interiors, hotel-quality comfort, and everything you need
+                for a relaxing stay—all under one roof.
+            </p>
+        </div>
+
+        <div id="GTCimage3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkyxkduGDlfgdpXaMWQDBiXkgtsPwnESV4aokOkjPXg&s=10"
+                alt="GTChouse3" />
+            <p id="img.ds">
+                📍 Minutes from Nairobi's top restaurants, shopping, and business
+                hubs. Stay where convenience meets elegance.
+            </p>
+        </div>
+        <section id="FORM">
+            <h2>Book Your Stay:</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="would you like to recieve notifications?">Would you like to receive
+                    notifications?</label><br><br>
+                <select id="notifications" name="notifications" value="notifications" required>
+                    <option value="yes">Yes, I would like to receive notifications.</option>
+                    <option value="no">No, thank you.</option>
+                </select><br><br>
+
+                <label for="Check-in date">Check-in date:</label><br><br>
+                <input type="date" id="check-in" name="check-in" required><br><br>
+                <label for="Check-out date">Check-out date:</label><br><br>
+                <input type="date" id="check-out" name="check-out" required><br><br>
+
+                <label for="number of guests">Number of guests:</label><br><br>
+                <input type="number" id="guests" name="guests" min="1" max="6" required><br><br>
+
+                <label for="Reason for booking">Reason for booking:</label><br><br>
+                <select id="reason" name="reason" value="reason" required>
+                    <option value="leisure">Leisure</option>
+                    <option value="business">Business</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <input type="submit" value="Register" id="Register">
+        </section>
+</body>
+
+</html>
